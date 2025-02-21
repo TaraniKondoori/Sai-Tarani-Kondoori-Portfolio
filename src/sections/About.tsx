@@ -9,8 +9,6 @@ import CssIcon from "@/assets/icons/css3.svg";
 import ReactIcon from "@/assets/icons/react.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
-import mapImage from "@/assets/images/map.png";
-import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
@@ -35,11 +33,11 @@ const toolboxItems = [
     iconType: ReactIcon,
   },
   {
-    title: "DynamoDB",
+    title: "Java",
     iconType: ChromeIcon,
   },
   {
-    title: "MySQL",
+    title: "Next.js",
     iconType: GithubIcon,
   },
 ]
@@ -96,7 +94,7 @@ const hobbies = [
   {
     title: "Product Management",
     emoji: '👔',
-    left: '14%',
+    left: '34%',
     top: '30%',
   },
 

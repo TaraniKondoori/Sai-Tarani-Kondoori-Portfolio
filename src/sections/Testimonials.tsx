@@ -10,39 +10,39 @@ import { Fragment } from "react";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "AR Image Tracking with Dragon Interaction",
+    position: "Augmented Reality/ Virtual Reality",
+    text: "Developed an AR Image Tracking project in Unity, featuring dynamic spawning of a 3D dragon upon image recognition. Integrated a fixed joystick interface for intuitive dragon control, enhancing user engagement.◦ Leveraged Unity, ARFoundation and C scripting to deliver immersive AR experiences.",
     avatar: memojiAvatar1,
-    link: "#",
+    link: "https://drive.google.com/file/d/1HSw_AZ37Gt88aZcqpenLqPdcuJxx_ULB/view?usp=sharing",
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Personal Diet Recommendation System with Website",
+    position: "Machine Learning",
+    text: "As part of the final bachelors project, developed a recommendation system that personalizes the food consumption of the individual. Applied Machine Learning algorithms and concepts such as K-means and Random Forest.",
     avatar: memojiAvatar2,
-    link: "#",
+    link: "https://github.com/TaraniKondoori/Personal-Diet-Recommendation-system-with-website",
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    name: "AI Chatbot for Chronic Kidney Diseases",
+    position: "Machine Learning",
+    text: "As part of the bachelors project, developed a chatbot using a health specific knowledge graph which can help with answers related to kidney specific concerns. Built a crawler which could extract rich information from text and build a knowledge graph using information extraction and natural language processing techniques.",
     avatar: memojiAvatar3,
-    link: "#",
+    link: "https://github.com/TaraniKondoori?tab=repositories",
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    name: "Smart India Hackathon",
+    position: "Image Recognition",
+    text: "Major duties include building an AI technology to recognise vehicle registration numbers from a car image. Used image processing and computer vision techniques to build a machine learning model which could segment text from image and identify the letter/digits.",
     avatar: memojiAvatar4,
     link: "#",
   },
   {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    name: "Personal Portfolio Website",
+    position: "Web Development",
+    text: "Built a portfolio website to showcase my projects and skills using various technologies like React, Next.js, Tailwind CSS, and TypeScript. Included animations and a responsive design to enhance user experience. User can view my projects, skills, and contact me through the website.",
     avatar: memojiAvatar5,
-    link: "#",
+    link: "https://taranikondoori.github.io/Sai-Tarani-Kondoori-Portfolio/",
   },
 ];
 
@@ -55,7 +55,7 @@ export const TestimonialsSection = () => {
         description="From theory to practice—projects that sharpened my skills and sparked innovation!" />
 
       <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-        <div className="flex flex-none gap-8 animate-move-left [animation-duration:120s] hover:[animation-play-state:paused]">
+        <div className="flex flex-none gap-8 animate-move-left [animation-duration:50s] hover:[animation-play-state:paused]">
           {[...new Array(2)].fill(0).map((_, index) => (
             <Fragment key={index}>
               {testimonials.map(testimonial => (

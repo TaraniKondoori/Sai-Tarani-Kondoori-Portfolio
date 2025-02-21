@@ -4,6 +4,8 @@ import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
+import amazon from "@/assets/images/amazon-laptop.png";
+import stumagz from "@/assets/images/stumagz-laptop.png";
 
 const portfolioProjects = [
   {
@@ -15,7 +17,7 @@ const portfolioProjects = [
       { title: "integrated across SageMaker pipelines owned by more than 10 teams, which significantly enhanced the system's debuggability." },
       { title: "Used various AWS services like SageMaker, Dynamo DB, Amazon S3, Amazon SQS, CDK etc to build and deploy the pipelines on CloudFormation." },
     ],
-    image: darkSaasLandingPage,
+    image: amazon,
   },
   {
     company: "StumagZ",
@@ -26,7 +28,7 @@ const portfolioProjects = [
       { title: "Automated article approval written by students across various Tier 2 3 colleges in Hyderabad." },
       { title: "Also included building API's to retrieve personalized part time gigs based on user preferences" },
     ],
-    image: lightSaasLandingPage,
+    image: stumagz,
   },
 ];
 

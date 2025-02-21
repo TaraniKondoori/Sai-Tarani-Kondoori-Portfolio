@@ -11,15 +11,15 @@ export const ContactSection = () => {
           }}></div>
         <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
           <div>
-            <h2 className="font-serif text-2xl md:text-3xl font-semibold">Thrilled to collaborate and build something extraordinary!</h2>
+            <h2 className="font-serif text-2xl md:text-3xl font-semibold">Thrilled to connect and discuss furthur!</h2>
             <p className="text-sm md:text-base mt-2">Lets connect and discuss how my skills best allign achieve great results.</p>
           </div>
           <div>
             <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
-              <a href="mailto:saitaranikondoori@gmail.com" target="_top">
+              {/* <a href="mailto:saitaranikondoori@gmail.com"> */}
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
-              </a>
+              {/* </a> */}
             </button>
           </div>
         </div>
