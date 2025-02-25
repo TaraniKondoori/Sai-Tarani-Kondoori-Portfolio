@@ -10,6 +10,10 @@ const footerLinks = [
     title: "LinkedIn",
     href: "https://www.linkedin.com/in/sai-tarani-kondoori-98585b193/",
   },
+  {
+    title: "Contact Me",
+    href: "mailto:saitaranikondoori@gmail.com",
+  },
 ];
 
 export const Footer = () => {

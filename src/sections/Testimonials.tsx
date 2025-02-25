@@ -47,7 +47,7 @@ const testimonials = [
 ];
 
 export const TestimonialsSection = () => {
-  return <div className="py-16 lg:py-24">
+  return <div id="projects" className="py-16 lg:py-24">
     <div className="container">
       <SectionHeader
         eyebrow="My Learnings"
